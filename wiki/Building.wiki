@@ -1,4 +1,6 @@
-#Building GameKit is supported on Windows, Linux and Mac OSX using CMake. iPhone support is under development.
+#summary building GameKit using cmake
+
+Building GameKit using cmake is supported on Windows, Linux and Mac OSX using CMake. iPhone support is under development.
 
 = Building =
 
