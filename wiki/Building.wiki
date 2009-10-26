@@ -1,0 +1,31 @@
+#summary One-sentence summary of this page.
+
+Building GameKit is supported on Windows, Linux and Mac OSX using CMake. iPhone support is under development.
+
+= Building =
+
+  * Download cmake 2.6 from http://cmake.org
+
+== Windows ==
+
+  * cmake . -G "Visual Studio 9 2008"
+
+Then open the project solution using Visual Studio.
+
+== Mac OSX ==
+
+  * cmake . -G Xcode
+
+Then open the generated Xcode project using Xcode
+
+== Unix/Linux ==
+
+  * cmake . -G "Unix Makefiles"
+
+Then run
+
+  * make
+
+== See also ==
+
+There is also a readme.txt in the root of GameKit with some help.
