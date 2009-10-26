@@ -1,4 +1,4 @@
-#summary Some idea about reading .blend files
+#summary Data extracted directly from .blend files
 
 = Graphics and Animation Data =
 
