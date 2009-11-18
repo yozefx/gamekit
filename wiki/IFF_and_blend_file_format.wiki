@@ -30,6 +30,6 @@ bParse can extract the structures (DNA) and structs. The original version was wr
 = further information =
 
   * the .blend format has been documented here:
-http://www.blendernation.com/the-mystery-of-the-blend-the-blender-file-format-explained
+http://www.atmind.nl/blender/mystery_ot_blend.html
   * the EA IFF 85 format is documented here: 
 http://www.martinreddy.net/gfx/2d/IFF.txt
