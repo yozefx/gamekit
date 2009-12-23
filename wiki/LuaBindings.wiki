@@ -1,0 +1,38 @@
+#summary Bindings to C++ using the Lua C-API
+
+= Introduction =
+
+The interface was designed to make use of the raw Lua c-api, to avoid the overhead that automatic wrappers may introduce. 
+As a result, usage may not be quite as straightforward. This implementation introduces the use of modules, name-spaces 
+and class instances, by using Lua's built-in table/metatable functionality.
+Each module can contain variables, functions, name-spaces, sub-name-spaces and classes.
+
+
+== System module ==
+
+The system module is unique in that it is always placed on the stack from the start of any script, it contains functionality 
+to import all other built-in modules. The idea behind this is that, if a large built-in module is used, say the Blender API; 
+when imported it will take up a lot of stack space. If there is no need to use it in the current program, then there is no need 
+to waist a lot stack space. Therfore it's left up up to the import function to place it on the stack.
+
+*Current built-in modules:*
+	* GameKit
+	* KeyCodes
+
+*Possible built-in modules* _but not limited to_
+	* MathUtils
+	* bParse
+	* Blender
+
+= Usage =
+
+== C++ ==
+_work in progress_
+
+
+== Runtime == 
+_Current interpreter is ScriptTest._
+
+*usage:* Interpreter luascript.lua arguments
+
+Command line arguments will be placed in the system module for use in the script as:  System.argc, System.argv  <br> see: [http://code.google.com/p/gamekit/source/browse/branches/OgreKit/Tests/ScriptTest/test.lua test.lua] for a more detailed example.
