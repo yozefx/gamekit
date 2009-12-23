@@ -16,13 +16,13 @@ when imported it will take up a lot of stack space. If there is no need to use i
 to waist a lot stack space. Therfore it's left up up to the import function to place it on the stack.
 
 *Current built-in modules:*
-	* GameKit
-	* KeyCodes
+ * GameKit
+ * KeyCodes
 
 *Possible built-in modules* _but not limited to_
-	* MathUtils
-	* bParse
-	* Blender
+ * MathUtils
+ * bParse
+ * Blender
 
 = Usage =
 
@@ -31,7 +31,7 @@ _work in progress_
 
 
 == Runtime == 
-_Current interpreter is ScriptTest._
+_Current interpreter is [http://code.google.com/p/gamekit/source/browse/branches/OgreKit/Tests/ScriptTest/ ScriptTest]._
 
 *usage:* Interpreter luascript.lua arguments
 
