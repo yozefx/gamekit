@@ -1,11 +1,18 @@
-#summary Related game engine technology
+#summary Related affordable game engine technology
 
-= Other projects =
+= Game Engines using permissive licenses (BSD/MIT/Zlib) =
+  * http://code.google.com/p/tubras/
+  * IndieZen http://www.indiezen.org Zlib, using BOOST
 
+= Game Engines using viral/copyleft licenses (L)GPL =
+  * Blender Game Engine, GPL
+
+= Proprietary Game Engines, closed source =
   * Unity 3D, closed source, proprietary
   * Torque, closed source, proprietary
-  * Blender Game Engine, GPL
-  * IndieZen http://www.indiezen.org Zlib, using BOOST
+
+= Proprietary, source available =
+  * C4
 
 = 3D level editors =
 
