@@ -1,0 +1,21 @@
+#summary Related game engine technology
+
+= Other projects =
+
+  * Unity 3D, closed source, proprietary
+  * Torque, closed source, proprietary
+  * Blender Game Engine, GPL
+  * IndieZen http://www.indiezen.org Zlib, using BOOST
+
+= 3D level editors =
+
+  * Ogitor http://ogitor.org
+  * 3d editor toolkit http://3d-editor-toolkit.googlecode.com
+  * IrrEdit
+  * C4 editor
+
+= Scripting / Game Logic =
+
+  * LUA
+  * Python
+  * Blender nodal game logic http://wiki.blender.org/index.php/Dev:Source/GameEngine/NodalLogic
