@@ -1,4 +1,11 @@
 #summary Related affordable game engine technology
+#labels 3d,game,engine
+
+Here are a few links to other affordable game engines, where the source code is available, for less then a few hunderd US dollars. Other popular indie game engines such as Torque or Unity are not listed, because they are proprietary closed source.
+
+A more exhaustive listing of 3D game engines (or just graphics engines) can be found here:
+http://www.devmaster.net/engines/
+
 
 = Game Engines using permissive licenses (BSD/MIT/Zlib) =
   * Panda3D http://www.panda3d.org, BSD license, browser plugin framework and iPhone  
@@ -7,10 +14,6 @@
 
 = Game Engines using viral/copyleft licenses (L)GPL =
   * Blender Game Engine, GPL
-
-= Proprietary Game Engines, closed source =
-  * Unity 3D, closed source, proprietary
-  * Torque, closed source, proprietary
 
 = Proprietary, source available =
   * C4
