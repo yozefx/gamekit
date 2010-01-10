@@ -1,6 +1,7 @@
 #summary Related affordable game engine technology
 
 = Game Engines using permissive licenses (BSD/MIT/Zlib) =
+  * Panda3D http://www.panda3d.org, BSD license, browser plugin framework and iPhone  
   * http://code.google.com/p/tubras/
   * IndieZen http://www.indiezen.org Zlib, using BOOST
 
