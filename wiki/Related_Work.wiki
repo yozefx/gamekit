@@ -13,7 +13,8 @@ http://www.devmaster.net/engines/
   * IndieZen http://www.indiezen.org Zlib, using BOOST
 
 = Game Engines using viral/copyleft licenses (L)GPL =
-  * Blender Game Engine, GPL
+  * Crystal Space, http://www.crystalspace3d.org, LGPL
+  * Blender Game Engine, http://blender.org, GPL
 
 = Proprietary, source available =
   * C4
