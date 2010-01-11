@@ -10,8 +10,8 @@ http://www.devmaster.net/engines/
 = Game Engines using permissive licenses (BSD/MIT/Zlib) =
   * Panda3D http://www.panda3d.org, BSD license, browser plugin framework and iPhone
   * Tubras and irrb Blender exporter, http://code.google.com/p/tubras/
-  * Lightfeather 3D Engine: http://lightfeather.de
-  * IndieZen http://www.indiezen.org Zlib, using BOOST
+  * Lightfeather 3D Engine: http://lightfeather.de, zlib license
+  * IndieZen http://www.indiezen.org, zlib license, using BOOST
 
 = Game Engines using viral/copyleft licenses (L)GPL =
   * Crystal Space, http://www.crystalspace3d.org, LGPL
