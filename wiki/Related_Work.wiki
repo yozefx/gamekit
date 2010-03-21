@@ -34,3 +34,10 @@ http://www.devmaster.net/engines/
   * LUA
   * Python
   * Blender nodal game logic http://wiki.blender.org/index.php/Dev:Source/GameEngine/NodalLogic
+
+= File Formats =
+  * .dae [http://collada.org COLLADA]
+  * .fbx [http://en.wikipedia.org/wiki/FBX Autodesk FBX]
+  * .blend [http://www.atmind.nl/blender/mystery_ot_blend.html Blender file format]
+  * .bullet [http://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization Bullet physics file format]
+  * .gto [http://open-gto.googlecode.com GTO/OpenGTO file format]
