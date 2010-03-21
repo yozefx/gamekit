@@ -24,6 +24,7 @@ http://www.devmaster.net/engines/
 = 3D level editors =
 
   * Ogitor http://ogitor.org
+  * Crystal Architect http://wiki.kyanite-studios.org/doku.php?id=ca:start
   * 3d editor toolkit http://3d-editor-toolkit.googlecode.com
   * IrrEdit
   * C4 editor
