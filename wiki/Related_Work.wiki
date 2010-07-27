@@ -1,5 +1,5 @@
 #summary Related affordable game engine technology
-#labels 3d,game,engine
+#labels G3D,game,engine
 
 Here are a few links to other affordable game engines, where the source code is available, for less then a few hunderd US dollars. Other popular indie game engines such as Torque or Unity are not listed, because they are proprietary closed source.
 
@@ -13,6 +13,7 @@ http://www.devmaster.net/engines/
   * Lightfeather 3D Engine: http://lightfeather.de, zlib license
   * IndieZen http://www.indiezen.org, zlib license, using BOOST
   * R5, http://code.google.com/p/r5ge/source/list (Apache)
+  * G3D Engine, http://g3d.sourceforge.net/index.html (licensed under the BSD license)
 
 = Game Engines using viral/copyleft licenses (L)GPL =
   * Crystal Space, http://www.crystalspace3d.org, LGPL
