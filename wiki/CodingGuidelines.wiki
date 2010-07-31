@@ -1,0 +1,18 @@
+#Some rules to follow for committers and contributers.
+
+= General =
+
+Those rules must never be violated:
+
+ * Only contribute code under the ZLib license (or MIT, BSD), and *never* (L)GPL
+ * CMake build system should work out-of-the-box, without requiring external dependencies
+ * No use of BOOST or STL
+ * Cross-platform build for Windows, Linux and Mac OSX, 32 and 64 bit
+
+= Coding Style =
+
+ * Follow existing coding conventions.
+ * Use tabs and not spaces.
+ * Camel case.
+ * Class names start with _gk_ like _gkSomeClass_
+ * Methods start with lower case like _gksomeClass::someMethods
