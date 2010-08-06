@@ -10,7 +10,7 @@ Building GameKit using cmake is supported on Windows, Linux and Mac OSX using CM
 
   * cmake . -G "Visual Studio 9 2008"
 
-Then open the project solution using Visual Studio.
+Then open the project solution using Visual Studio. CMake can generate project/solution for other version of Visual Studio but 2008 is more tested. You need to have Visual Studio installed before using CMake. Free version (Express) are available free of charge.
 
 == Mac OSX ==
 
