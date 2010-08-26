@@ -82,7 +82,7 @@ function HelloWorldApp:constructor()
 
 
     -- Initaialize the scene.
-    self.scene:initialize()
+    self.scene:createInstance()
 
 end
 
