@@ -43,7 +43,7 @@ demo = Demo()
 demo:connect(OgreKit.EVT_TICK, demo, Demo.OnUpdate)
 }}}
 
-Execute with the following command line: AppOgreKit yourBlendWithOnLoad.blend
+Execute with the following command line: AppOgreKit yourFileWithOnInit.blend
 
 
 
