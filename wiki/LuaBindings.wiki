@@ -50,7 +50,7 @@ Execute with the following command line: AppOgreKit yourBlendWithOnLoad.blend
 
 ----
 
-== Hello World Standlaone ==
+== Hello World Standalone ==
 
 Creating a standalone application requires setting up the OgreKit.Engine class from scratch. You are responsible for setting window parameters, user defined variables, loading a blend file, and adding exit hooks.
 
