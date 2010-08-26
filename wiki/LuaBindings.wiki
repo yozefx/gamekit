@@ -8,7 +8,7 @@ the current blend file.
 
 Some terms used in this document, 
  * Standalone, meaning the application AppLuaRuntime
- * Embedded, meaning the application AppOgreKit, with an OnLoad.lua text file inside.
+ * Embedded, meaning the application AppOgreKit, with an OnInit.lua text file inside.
 
 
 ==== Notes ====
@@ -20,10 +20,10 @@ The most up to date API documentation may be download here ([http://gamekit.goog
 
 == Hello World Embedded ==
 
-In an embedded application, the entry point is in a predefined script named OnLoad.lua.
+In an embedded application, the entry point is in a predefined script named OnInit.lua.
 What this script does is execute every time the scene is initialized. Allowing a one time setup to connect event listeners, create logic bricks, etc. The following example shows how to use this setup to connect to the main loop and print a debug message on screen.
 
-=== OnLoad.lua ===
+=== OnInit.lua ===
 {{{
 Demo = BaseClass(OgreKit.Engine)
 
@@ -82,7 +82,7 @@ function HelloWorldApp:constructor()
 
 
     -- Initaialize the scene.
-    self.scene:load()
+    self.scene:initialize()
 
 end
 
