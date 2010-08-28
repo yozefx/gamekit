@@ -74,8 +74,12 @@ public:
     gkCodingStyle();
     virtual ~gkCodingStyle();
 
+    ///doxygen comment starts with 3 slashes and should provide useful info
+    ///not just copying the method name
+    ///someFunction will compute the updated position of this object
     void someFunction(void);
-    const int getmember() const { return m_somePrivateMember; }
+
+    const int getMember() const { return m_somePrivateMember; }
 
 };
 
@@ -122,11 +126,11 @@ gkCodingStyle::gkCodingStyle()
 {
 }
 
-btExampleCodingStyleClass::~btExampleCodingStyleClass()
+gkExampleCodingStyleClass::~btExampleCodingStyleClass()
 {
 }
 
-void btExampleCodingStyleClass::someFunctionName(void)
+void gkExampleCodingStyleClass::someFunctionName(void)
 {
     int i;
     for (i=0;i<m_somePrivateMember;i++)
