@@ -16,15 +16,15 @@ Those rules must never be violated:
 
  * Do not use BOOST or STL
  * Use tabs and not spaces.
- * CamelCase instead of under_scores
- * Class names start with _gk_ like _gkSomeClass_
- * Methods start with lower case like _gksomeClass::someMethods
+ * `CamelCase` instead of `under_scores`
+ * Class names start with `gk` like `gkSomeClass`
+ * Methods start with lower case like `gkSomeClass::someMethods`
  * One class per header file, smaller structures can be combined in a single file.
  * Member variables start with m_ and go first at the top of the class declaration.
  * No use of global variables and namespaces.
- * Don't include #include <stdio.h> or similar include files
- * Try to use const when possible
- * Make sure to comment out printf, used while debugging
+ * Don't include `#include <stdio.h>` or similar include files
+ * Try to use `const` when possible
+ * Make sure to comment out `printf`, used while debugging
  * Avoid circular dependencies of classes.
  * Use forward declaration whenever possible instead of including other header files
  * The Zlib license header goes at the top of each source file
