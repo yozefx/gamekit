@@ -28,6 +28,7 @@ Those rules must never be violated:
  * Avoid circular dependencies of classes.
  * Use forward declaration whenever possible instead of including other header files
  * The Zlib license header goes at the top of each source file
+ * Pass by reference where applicable. 
 
 = Example Header File =
 {{{
@@ -60,7 +61,7 @@ Those rules must never be violated:
 #ifndef _gkCodingStyle_h_
 #define _gkCodingStyle_h_
 
-#include "gkVariable.h"
+class gkVariable;
 
 class gkCodingStyle
 {
@@ -78,6 +79,8 @@ public:
     ///not just copying the method name
     ///someFunction will compute the updated position of this object
     void someFunction(void);
+
+    void someFunction(const gkVariable &value);
 
     const int getMember() const { return m_somePrivateMember; }
 
@@ -119,6 +122,7 @@ public:
 #define _gkCodingStyle_h_
 
 #include "gkCodingStyle.h"
+#include "gkVariable.h"
 
 gkCodingStyle::gkCodingStyle()
 :    m_somePrivateMember(0)
@@ -126,17 +130,22 @@ gkCodingStyle::gkCodingStyle()
 {
 }
 
-gkExampleCodingStyleClass::~btExampleCodingStyleClass()
+gkCodingStyle::~gkCodingStyle()
 {
 }
 
-void gkExampleCodingStyleClass::someFunctionName(void)
+void gkCodingStyle::someFunctionName(void)
 {
     int i;
     for (i=0;i<m_somePrivateMember;i++)
     {
         m_someString += "MoreText";
     }
+}
+
+void gkCodingStyle::someFunction(const gkVariable &value)
+{
+    m_someString += value;
 }
 
 }}}
