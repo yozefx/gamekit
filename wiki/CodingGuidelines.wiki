@@ -16,7 +16,7 @@ Those rules must never be violated:
 
  * Do not use BOOST or STL
  * Use tabs and not spaces.
- * Camel case.
+ * CamelCase instead of under_scores
  * Class names start with _gk_ like _gkSomeClass_
  * Methods start with lower case like _gksomeClass::someMethods
  * One class per header file, smaller structures can be combined in a single file.
