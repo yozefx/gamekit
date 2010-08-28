@@ -28,7 +28,7 @@ Those rules must never be violated:
  * Avoid circular dependencies of classes.
  * Use forward declaration whenever possible instead of including other header files
  * The Zlib license header goes at the top of each source file
- * Pass by reference where applicable. 
+ * Pass by const reference where applicable. 
 
 = Example Header File =
 {{{
@@ -134,7 +134,7 @@ gkCodingStyle::~gkCodingStyle()
 {
 }
 
-void gkCodingStyle::someFunctionName(void)
+void gkCodingStyle::someFunction(void)
 {
     int i;
     for (i=0;i<m_somePrivateMember;i++)
