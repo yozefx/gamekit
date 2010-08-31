@@ -111,3 +111,56 @@ Currently all events are tested per sensor which is highly inefficient. What nee
 
 This module is based on the logic brick module found in the Blender game engine.
 It has been written based on careful observations to the execution behavior of blender bricks. Therefore it is not a complete copy. It's more based on the above derived theory than anything else. However, much attention has been made to make the two compatible.
+
+== Current Blender Compatibility Status ==
+
+=== Sensors ===
+
+|| *Name* || *Gamekit Class* || *Remarks* ||
+|| Always || gkAlwaysSensor || ||
+|| Delay || gkDelaySensor || ||
+|| Keyboard || gkKeyboardSensor || ||
+|| Mouse || gkMouseSensor || ||
+|| Touch || gkCollisionSensor || ||
+|| Collision || gkCollisionSensor || ||
+|| Near || gkNearSensor || ||
+|| Radar || gkRadarSensor || ||
+|| Property || gkPropertySensor || ||
+|| Random || gkRandomSensor || ||
+|| Ray || gkRaySensor || ||
+|| Message || gkMessageSensor || ||
+|| Joystick || gkJoystickSensor || No support for joystick's hat yet. ||
+|| Actuator || gkActuatorSensor || ||
+
+=== Controllers ===
+
+|| *Name* || *Gamekit Class* || *Remarks* ||
+|| And || gkLogicOpController || ||
+|| Or || gkLogicOpController || ||
+|| Xor || gkLogicOpController || ||
+|| Nand || gkLogicOpController || ||
+|| Nor || gkLogicOpController || ||
+|| Xnor || gkLogicOpController || ||
+|| Expression || _N/A_ || Expression parser in Blender have compatible license with Gamekit  ||
+|| Python || gkScriptController || ||
+
+===Actuators ===
+
+|| *Name* || *Gamekit Class* || *Remarks* ||
+|| Motion || gkMotionActuator || No servo mode. ||
+|| Shape Action || _N/A_ ||  ||
+|| Action || gkActionactuator ||  ||
+|| Constraint || _N/A_ ||  ||
+|| IPO || _N/A_ ||  ||
+|| Camera || _N/A_ ||  ||
+|| Sound || gkSoundActuator ||  ||
+|| Property || gkPropertyActuator || Does not support expressions. ||
+|| Edit Object || gkEditObjectActuator ||  ||
+|| Scene || gkSceneActuator || No background/Overlay/Remove nor Supend/Resume ||
+|| Random || gkRandomActuator ||  ||
+|| Message || gkMessageActuator ||  ||
+|| Game || gkGameActuator || No Start New nor Save/Load. ||
+|| Visibility || gkVisibilityActuator ||  ||
+|| 2D Filter || _N/A_ ||  ||
+|| Parent || gkParentActuator || No Compound/ghost. ||
+|| State || gkStateActuator ||  ||
