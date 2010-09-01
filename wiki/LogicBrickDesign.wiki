@@ -114,6 +114,8 @@ It has been written based on careful observations to the execution behavior of b
 
 == Current Blender Compatibility Status ==
 
+All logic bricks not marked by N/A will be extracted from the current blend file. Bricks are automatically setup and linked durring load. If a brick marked by N/A is found, it will be skipped and all links in or out will not be evaluated.
+
 === Sensors ===
 
 || *Name* || *Gamekit Class* || *Remarks* ||
