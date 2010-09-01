@@ -112,11 +112,12 @@ Currently all events are tested per sensor which is highly inefficient. What nee
 This module is based on the logic brick module found in the Blender game engine.
 It has been written based on careful observations to the execution behavior of blender bricks. Therefore it is not a complete copy. It's more based on the above derived theory than anything else. However, much attention has been made to make the two compatible.
 
-== Current Blender Compatibility Status ==
+----
+= Current Blender Compatibility Status =
 
 All logic bricks not marked by N/A will be extracted from the current blend file. Bricks are automatically setup and linked durring load. If a brick marked by N/A is found, it will be skipped and all links in or out will not be evaluated.
 
-=== Sensors ===
+== Sensors ==
 
 || *Name* || *Gamekit Class* || *Remarks* ||
 || Always || gkAlwaysSensor || ||
@@ -134,7 +135,7 @@ All logic bricks not marked by N/A will be extracted from the current blend file
 || Joystick || gkJoystickSensor || No support for joystick's hat yet. ||
 || Actuator || gkActuatorSensor || ||
 
-=== Controllers ===
+== Controllers ==
 
 || *Name* || *Gamekit Class* || *Remarks* ||
 || And || gkLogicOpController || ||
@@ -146,7 +147,7 @@ All logic bricks not marked by N/A will be extracted from the current blend file
 || Expression || _N/A_ || Expression parser in Blender have compatible license with Gamekit  ||
 || Python || gkScriptController || ||
 
-===Actuators ===
+== Actuators ==
 
 || *Name* || *Gamekit Class* || *Remarks* ||
 || Motion || gkMotionActuator || No servo mode. ||
