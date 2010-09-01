@@ -1,0 +1,17 @@
+#summary Preparing a source release.
+
+ * Export trunk using svn export
+ * Remove NodeEditor in Tools/ and follow thees steps again, if building a source release for it.
+ * Open top level CMakeLists.txt, uncomment:
+ * CMAKE_SUPPRESS_REGENERATION
+ * CMAKE_USE_RELATIVE_PATHS
+ * INTERNAL_CREATE_DISTRIBUTABLE_MSVC_PROJECTFILES
+ * Make source and build directory the same
+ * Disable all Direct3D render systems
+ * Enable OGREKIT_OIS_WIN32_NATIVE
+ * Generate project files
+ * Remove generated files ALL_BUILD.vcproj, INSTALL.vcproj, cmake_install.cmake, CMakeCache.txt from the top level directory
+ * Open top level project and remove ALL_BUILD and INSTALL, then save
+ * Zip current directory
+ * Unzip in another directory and test build for consistency.
+ 
