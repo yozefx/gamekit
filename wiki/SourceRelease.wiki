@@ -6,7 +6,7 @@
  * CMAKE_SUPPRESS_REGENERATION
  * CMAKE_USE_RELATIVE_PATHS
  * INTERNAL_CREATE_DISTRIBUTABLE_MSVC_PROJECTFILES
- * Make source and build directory the same
+ * Run cmake-gui and make source and build directory the same
  * Disable all Direct3D render systems
  * Enable OGREKIT_OIS_WIN32_NATIVE
  * Generate project files
