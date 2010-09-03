@@ -1,12 +1,26 @@
-#summary building GameKit using cmake
+#summary building GameKit
+#labels Phase-Deploy
 
-Building GameKit using cmake is supported on Windows, Linux and Mac OSX using CMake. iPhone support is under development.
+Building gamekit is supported on Windows, Linux, Mac OSX and iPhone using CMake. Alternatively, you can download a source package that contains ready-to-go Visual Studio project files.
 
-= Building =
+= Building using the visual studio solution =
 
-  * Download cmake 2.6 from http://cmake.org
+The source archive from the Download section is self-contained and it includes Microsoft Visual Studio project files that work out-of-the-box. This version uses OpenGL to avoid a dependency to the DirectX SDK. Just open OGREKIT.sln, select 'Release' build and hit F5.
+
+The visual studio project files have been generated with relative paths using cmake, as described in the [SourceRelease]
+
+
+= Building using cmake =
+
+  * Download cmake 2.6 or later from http://cmake.org
 
 == Windows ==
+
+  * cmake-gui
+
+Then select the source directory, binary directory and hit the 'Configure' button. Choose your build system, such as Visual Studio 2008. A red block of options will appear. You can customize the build or hit 'Configure' again and then 'Generate'. From there you can open the OGREKIT.sln project solution.
+
+Alternatively:
 
   * cmake . -G "Visual Studio 9 2008"
 
@@ -17,6 +31,8 @@ Then open the project solution using Visual Studio. CMake can generate project/s
   * cmake . -G Xcode
 
 Then open the generated Xcode project using Xcode
+
+Alternatively you can use cmake-gui, similar to the Windows version.
 
 == Unix/Linux ==
 
