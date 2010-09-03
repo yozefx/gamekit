@@ -5,7 +5,7 @@ Building gamekit is supported on Windows, Linux, Mac OSX and iPhone using CMake.
 
 = Building using the visual studio solution =
 
-The source archive from the Download section is self-contained and it includes Microsoft Visual Studio project files that work out-of-the-box. This version uses OpenGL to avoid a dependency to the DirectX SDK. Just open OGREKIT.sln, select 'Release' build and hit F5.
+The source package `OgreKit-*.zip` in the Downloads section is self-contained and it includes Microsoft Visual Studio project files that work out-of-the-box. This version uses OpenGL to avoid a dependency to the DirectX SDK. Just open OGREKIT.sln, select 'Release' build and hit F5.
 
 The visual studio project files have been generated with relative paths using cmake, as described in the [SourceRelease]
 
