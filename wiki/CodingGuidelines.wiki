@@ -118,9 +118,6 @@ public:
   3. This notice may not be removed or altered from any source distribution.
 -------------------------------------------------------------------------------
 */
-#ifndef _gkCodingStyle_h_
-#define _gkCodingStyle_h_
-
 #include "gkCodingStyle.h"
 #include "gkVariable.h"
 
