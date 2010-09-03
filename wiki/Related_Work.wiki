@@ -1,5 +1,5 @@
 #summary Related affordable game engine technology
-#labels G3D,game,engine
+#labels game,engine
 
 Here are a few links to other affordable game engines, where the source code is available, for less then a few hunderd US dollars. Other popular indie game engines such as Torque or Unity are not listed, because they are proprietary closed source.
 
