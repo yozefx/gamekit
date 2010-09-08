@@ -14,6 +14,7 @@ http://www.devmaster.net/engines/
   * IndieZen http://www.indiezen.org, zlib license, using BOOST
   * R5, http://code.google.com/p/r5ge/source/list (Apache)
   * G3D Engine, http://g3d.sourceforge.net/index.html (licensed under the BSD license)
+  * Sauerbraten / Cube 2, http://sauerbraten.org (Zlib license)
 
 = Game Engines using viral/copyleft licenses (L)GPL =
   * Crystal Space, http://www.crystalspace3d.org, LGPL
