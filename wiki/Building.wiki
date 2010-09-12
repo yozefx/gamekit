@@ -42,6 +42,16 @@ Then run
 
   * make
 
+== IPhone ==
+
+  * cmake-gui
+
+It is similar to the Mac OSX version.
+
+  * Turn on OGREKIT_BUILD_IPHONE
+  * Turn on OGREKIT_BUILD_GLESRS
+  * Turn off OGREKIT_BUILD_GLRS
+
 == See also ==
 
 There is also a readme.txt in the root of GameKit with some help.
