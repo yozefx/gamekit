@@ -14,7 +14,7 @@ Those rules must never be violated:
 
 = Coding Style =
 
- * Do not use BOOST or STL
+ * Do not use BOOST, STL or exception handling
  * Use tabs and not spaces.
  * `CamelCase` instead of `under_scores`
  * Class names start with `gk` like `gkSomeClass`
@@ -28,7 +28,8 @@ Those rules must never be violated:
  * Avoid circular dependencies of classes.
  * Use forward declaration whenever possible instead of including other header files
  * The Zlib license header goes at the top of each source file
- * Pass by const reference where applicable. 
+ * Pass by const reference where applicable.
+ * The pointer and reference symbols are attached to the type, not to the variable: `const gkType& pointer`.
 
 = Example Header File =
 {{{
@@ -80,7 +81,7 @@ public:
     ///someFunction will compute the updated position of this object
     void someFunction(void);
 
-    void someFunction(const gkVariable &value);
+    void someFunction(const gkVariable& value);
 
     const int getMember() const { return m_somePrivateMember; }
 
@@ -140,7 +141,7 @@ void gkCodingStyle::someFunction(void)
     }
 }
 
-void gkCodingStyle::someFunction(const gkVariable &value)
+void gkCodingStyle::someFunction(const gkVariable& value)
 {
     m_someString += value;
 }
