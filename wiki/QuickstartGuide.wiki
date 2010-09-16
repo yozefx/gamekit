@@ -21,6 +21,10 @@ Testing the OgreKit demo
   * Using Lua, see the [LuaBindings] page
   * Using a Logic Bricks system that is mostly compatible with Blender logic bricks, see [LogicBrickDesign]
 
+= Blender integration = 
+
+  * There is an integration for Blender 2.5 using the add-on mechanism. Check out the [BlenderAddon details here].
+
 = License = 
 
 Gamekit and OgreKit exclusively uses very permissive software licenses, either BSD, ZLib or MIT. Those licenses are great for development of commercial applications or when used with proprietary technology and platforms.
