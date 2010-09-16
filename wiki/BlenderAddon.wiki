@@ -8,6 +8,13 @@ Blender 2.5 has a add-on mechanism, that allows this gamekit to be started direc
 Further explanation is in the Blender wiki here: http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/Game_Engine/Gamekit_Engine 
 
 
+= Quickstart Guide = 
+
+  * Download Blender and the gamekit addon. We provide a Windows zipfile that contains both in the [http://code.google.com/p/gamekit/downloads/list Downloads section]
+  * Enable the gamekit using the 'preferences / add-on' tab
+  * Open a .blend file. Above zipfile includes a working sample blend in the OgreKit subdirectory
+  * Search and scroll down to a gamekit panel and press the START key. Note that 'P' key still runs the internal BGE engine.
+
 = Re-assign the P key  =
 
 By default the P key starts the internal BGE game engine. If you want to start the gamekit you have to press the 'Start' button in the appropriate panel (screenshot).
