@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Blender 2.5 has a add-on mechanism, that allows this gamekit to be started directly from Blender. 
+Blender 2.5 has an add-on mechanism, that allows this gamekit to be started directly from within Blender. 
 
 Further explanation is in the Blender wiki here: http://wiki.blender.org/index.php/Extensions:2.5/Py/Scripts/Game_Engine/Gamekit_Engine 
 
@@ -22,3 +22,12 @@ By default the P key starts the internal BGE game engine. If you want to start t
 Here is how you can re-assign the P key:
 
   * step 1, todo
+
+= Compatibility =
+
+  * See this wiki page for [http://code.google.com/p/gamekit/wiki/LogicBrickDesign logic brick compatibility]
+  * Make sure that your textures are compatibile, see this [http://code.google.com/p/gamekit/wiki/Blender_Textures Texture wiki page]
+
+= Further reading =
+
+  * See also the [http://code.google.com/p/gamekit/wiki/QuickstartGuide gamekit quickstart guide] and check out this [http://blenderartists.org/forum/showthread.php?t=155310 forum topic on Blender Artists]
