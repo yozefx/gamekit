@@ -21,7 +21,11 @@ By default the P key starts the internal BGE game engine. If you want to start t
 
 Here is how you can re-assign the P key:
 
-  * step 1, todo
+  * After enabling the Gamekit addon, go to "User Preferences->Input"
+  * Go to "3DView->ObjectMode" and click the "Edit" button
+  * Uncheck the "Start Game Engine" keymap entry.
+  * At the end of the list of the keymaps entry for "Object Mode", click the "Add New" button.
+  * In the new keymap entry, set the operator to "scene.gamekit_start_game" and the key to "P"
 
 = Compatibility =
 
