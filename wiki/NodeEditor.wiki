@@ -27,7 +27,7 @@ The ultimate goal of this editor is to turn C++ only nodes into an easy to use a
  * Cannot form groups of nodes, or groups of groups.
  * Cannot output node trees into easily readable file format (XML currently).
  * GameKit cannot parse text files ending with .ntree yet.
- * The wxWidgets CMake build system currently only supports Win32 and GTK2 building. 
+ * The wxWidgets CMake build system currently only supports Win32 and Linux GTK2 building. 
  * All node support in GameKit must be accomplished through the C++ interface. 
 
 
