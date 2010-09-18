@@ -34,6 +34,9 @@ Then open the generated Xcode project using Xcode
 
 Alternatively you can use cmake-gui, similar to the Windows version.
 
+  * Turn on OGREKIT_BUILD_GLRS
+  * Turn off OGREKIT_BUILD_GLESRS
+
 == Unix/Linux ==
 
   * cmake . -G "Unix Makefiles"
@@ -42,7 +45,7 @@ Then run
 
   * make
 
-== IPhone ==
+== iPhone ==
 
   * cmake-gui
 
