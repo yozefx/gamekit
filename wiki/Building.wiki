@@ -55,7 +55,7 @@ It is similar to the Mac OSX version.
   * Turn on OGREKIT_BUILD_GLESRS
   * Turn off OGREKIT_BUILD_GLRS
 
-You should use the CMake 2.8.2 for the iPhone build. If you want to build on device and simulator both, make two projects by manually(./build_simulator, ./build_iphoneos). Because the device/simulator build output directory is same. And, you turn off 'Compile for Thumb' option on the OgreKitCore target for the device build. This limitation will be fixed in the future.
+You should use the CMake 2.8.2 or higher version for the iPhone build. 
 
 == See also ==
 
