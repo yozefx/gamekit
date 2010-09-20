@@ -37,6 +37,10 @@ http://wiki.blender.org/index.php/Dev:Source/GameEngine/2.49/VideoTexture
 
 The bParse .blend conversion to Ogre currently supports method (1) and (2)
 
+= iPhone and iPad textures =
+
+Make sure that the width and height of the texture is a power of 2.
+
 = IrrKit = 
 
 The bParse .blend conversion to Irrlicht currently supports method (1) partially.
