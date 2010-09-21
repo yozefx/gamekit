@@ -1,4 +1,5 @@
 #summary OgreKit is the implementation of gamekit using Ogre
+#labels Phase-Implementation,Ogre
 
 = Introduction =
 
