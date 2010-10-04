@@ -57,6 +57,8 @@ It is similar to the Mac OSX version.
 
 You should use the CMake 2.8.2 or higher version for the iPhone build. 
 
+Good iPhone build tutorial by kruzer - [http://blenderartists.org/forum/showpost.php?p=1701697&postcount=371 blenderartists.org]
+
 == See also ==
 
 There is also a readme.txt in the root of GameKit with some help.
