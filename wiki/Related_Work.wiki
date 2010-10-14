@@ -8,6 +8,7 @@ http://www.devmaster.net/engines/
 
 
 = Game Engines using permissive licenses (BSD/MIT/Zlib) =
+  * Hieroglyph3 http://hieroglyph3.codeplex.com, MIT license, DX11 renderer with deferred rendering
   * Panda3D http://www.panda3d.org, BSD license, browser plugin framework and iPhone
   * Tubras and irrb Blender exporter, http://code.google.com/p/tubras/
   * Lightfeather 3D Engine: http://lightfeather.de, zlib license
@@ -15,6 +16,7 @@ http://www.devmaster.net/engines/
   * R5, http://code.google.com/p/r5ge/source/list (Apache)
   * G3D Engine, http://g3d.sourceforge.net/index.html (licensed under the BSD license)
   * Sauerbraten / Cube 2, http://sauerbraten.org (Zlib license)
+
 
 = Game Engines using viral/copyleft licenses (L)GPL =
   * Crystal Space, http://www.crystalspace3d.org, LGPL
