@@ -63,7 +63,7 @@ Then run
   * make
 
 You can also generate an IDE project. 
-  * cmake . -G "CodeBlocks - Unix Makefiles"
+  * `cmake . -G "CodeBlocks - Unix Makefiles"`
 
 == See also ==
 
