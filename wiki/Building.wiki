@@ -37,6 +37,23 @@ Alternatively you can use cmake-gui, similar to the Windows version.
   * Turn on OGREKIT_BUILD_GLRS
   * Turn off OGREKIT_BUILD_GLESRS
 
+
+== iOS(iPhone/iPad/iPod Touch) ==
+
+  * cmake . -G Xcode -D OGREKIT_BUILD_IPHONE=1 -D OGREKIT_BUILD_GLESRS=1 OGREKIT_BUILD_GLRS=0
+
+Then open the generated Xcode project using Xcode
+
+Alternatively you can use cmake-gui, similar to the Windows version.
+
+  * Turn on OGREKIT_BUILD_IPHONE
+  * Turn on OGREKIT_BUILD_GLESRS
+  * Turn off OGREKIT_BUILD_GLRS
+
+NOTE: You should use the CMake 2.8.2 or higher version for the iOS build. 
+
+Good iOS build tutorial by kruzer - [http://blenderartists.org/forum/showpost.php?p=1701697&postcount=371 blenderartists.org]
+
 == Unix/Linux ==
 
   * cmake . -G "Unix Makefiles"
@@ -45,19 +62,8 @@ Then run
 
   * make
 
-== iPhone ==
-
-  * cmake-gui
-
-It is similar to the Mac OSX version.
-
-  * Turn on OGREKIT_BUILD_IPHONE
-  * Turn on OGREKIT_BUILD_GLESRS
-  * Turn off OGREKIT_BUILD_GLRS
-
-You should use the CMake 2.8.2 or higher version for the iPhone build. 
-
-Good iPhone build tutorial by kruzer - [http://blenderartists.org/forum/showpost.php?p=1701697&postcount=371 blenderartists.org]
+You can also generate an IDE project. 
+  * cmake . -G "CodeBlocks - Unix Makefiles"
 
 == See also ==
 
