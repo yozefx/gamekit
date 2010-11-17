@@ -40,7 +40,9 @@ Alternatively you can use cmake-gui, similar to the Windows version.
 
 == iOS(iPhone/iPad/iPod Touch) ==
 
-  * cmake . -G Xcode -D OGREKIT_BUILD_IPHONE=1 -D OGREKIT_BUILD_GLESRS=1 -D OGREKIT_BUILD_GLRS=0
+  * cmake . -G Xcode -DOGREKIT_BUILD_IPHONE=1 -DOGREKIT_BUILD_GLESRS=1 -DOGREKIT_BUILD_GLRS=0
+
+NOTE: You should use the CMake 2.8.3 or higher version for the iOS build with CMake command line tool. 
 
 Then open the generated Xcode project using Xcode
 
