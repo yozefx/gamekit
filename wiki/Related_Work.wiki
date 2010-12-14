@@ -1,7 +1,7 @@
 #summary Related affordable game engine technology
 #labels game,engine
 
-Here are a few links to other affordable game engines, where the source code is available, for less then a few hunderd US dollars. Other popular indie game engines such as Torque or Unity are not listed, because they are proprietary closed source.
+Here are a few links to other affordable game engines, where the source code is available, for less then a few hunderd US dollars.
 
 A more exhaustive listing of 3D game engines (or just graphics engines) can be found here:
 http://www.devmaster.net/engines/
@@ -24,6 +24,10 @@ http://www.devmaster.net/engines/
 
 = Proprietary, source available =
   * C4
+
+= Proprietary, closed source =
+  * Unity 3D, http://unity3d.com
+  * Shiva 3D, http://www.stonetrip.com
 
 = 3D level editors =
 
