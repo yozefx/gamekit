@@ -8,6 +8,7 @@ http://www.devmaster.net/engines/
 
 
 = Game Engines using permissive licenses (BSD/MIT/Zlib) =
+  * Maratis 3D http://maratis3d.com, zlib/png license
   * Hieroglyph3 http://hieroglyph3.codeplex.com, MIT license, DX11 renderer with deferred rendering
   * Panda3D http://www.panda3d.org, BSD license, browser plugin framework and iPhone
   * Tubras and irrb Blender exporter, http://code.google.com/p/tubras/
