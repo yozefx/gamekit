@@ -144,7 +144,7 @@ All logic bricks not marked by N/A will be extracted from the current blend file
 || Nand || gkLogicOpController || ||
 || Nor || gkLogicOpController || ||
 || Xnor || gkLogicOpController || ||
-|| Expression || _N/A_ || Expression parser in Blender have compatible license with Gamekit  ||
+|| Expression || gkExpressionController || Expression parser in Blender have compatible license with Gamekit  ||
 || Python || gkScriptController || ||
 
 == Actuators ==
@@ -167,3 +167,12 @@ All logic bricks not marked by N/A will be extracted from the current blend file
 || 2D Filter || _N/A_ ||  ||
 || Parent || gkParentActuator || No Compound/ghost. ||
 || State || gkStateActuator ||  ||
+
+----
+= Related Links =
+
+http://blenderartists.org/forum/showthread.php?t=207640
+
+http://gameblender.wikia.com/wiki/Sensors
+
+http://wiki.blender.org/index.php/Doc:2.4/Books/GameKit_2/13.Reference
