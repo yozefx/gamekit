@@ -17,6 +17,8 @@ http://www.devmaster.net/engines/
   * R5, http://code.google.com/p/r5ge/source/list (Apache)
   * G3D Engine, http://g3d.sourceforge.net/index.html (licensed under the BSD license)
   * Sauerbraten / Cube 2, http://sauerbraten.org (Zlib license)
+  * libgdx, Android/PC framework, http://code.google.com/p/libgdx (Apache 2.0 license)
+  * Galaxy Engine, Max, iPhone, iPad, Cocoa, http://code.google.com/p/galaxyengine (BSD license)
 
 
 = Game Engines using viral/copyleft licenses (L)GPL =
