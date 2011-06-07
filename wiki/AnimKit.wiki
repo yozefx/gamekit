@@ -1,0 +1,67 @@
+#AnimKit internals, status and roadmap
+
+= AK Internals =
+
+== akAnimationClip ==
+A basic keyframed animation
+
+== akAnimationChannel ==
+Can be of type BONE/TRANSFORM/MORPH/META. It is mostly organisational (to group curves inside a clip) and give hints on how to apply the result (type and name)
+
+== akAnimationCurve ==
+A keyframed curve with linear or bezier interpolation. It animates only one float value.
+
+== akAnimationPlayer ==
+Link to a clip and recall the positon inside the clip (local clock) and the playing speed. Each object have a player for each animation clip it can play (so animation clip are shared between objects). It also contain the weight of the animation for animation blending. 
+
+== akAnimationPlayerSet ==
+A set of players to facilitate handling the multitude of players an object can have.
+
+== akSkeletonPose ==
+Quite self explanatory. Can be in different "spaces": Model, Local or Binding.
+For blending it better be in a space where the parent position does not affect the child position. So do not blend in model space but only in local or binding space. For generating a matrix palette for skinning however it should be in model space.
+Some methods are available to convert between spaces.
+
+== akPose ==
+== akGeometryDeformer ==
+== akBufferInfo ==
+== akMesh ==
+
+
+= AK Status=
+
+  * Linear blend skinning
+  * Dual quaternion skinning
+  * Morphing (shape keys)
+  * Arbitary float value animation
+  * Animation Blending: By hand or flat weighted average (normalized or not)
+  * LERP, additive and substractive blending.
+
+
+= AK Roadmap (in no special order) = 
+
+  * Partial body blending
+  * Retargeting
+  * Mirroring
+  * Quatization
+  * BlendController
+    # BlendTree
+    # Animation State Machine 
+  * IK
+  * Serialization
+  * GUI
+
+
+= Demo Status =
+
+  * Skinning
+  * Morphing
+  * Simple animation (positon rotation)
+  * VBO
+  * Shaded/Shadeless/Wireframe
+  * Draw normals
+  * DualQuaternion/Matrix skinning
+
+= Demo Roadmap =
+  * UV textures (uv coord are loaded from blend file, textures not yet)
+  * Idle/Walk/Run with akAnimationPlayer synchronisation.
