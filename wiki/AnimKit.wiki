@@ -62,7 +62,7 @@ The mesh is decomposed in submeshes each of which have arrays containing the mes
   * Do not waste memory (unlike the gkMesh which alocate 8 UV layers for each vertex)
 To avoid the user to know the memory organisation of the mesh data, each submesh use 2 akBufferInfo, one to describe the vertex buffer and the other to describe the index buffer.
 
-An akBufferInfo contains several "Elements". Each element have a data type (uint32, int32, 4uint8, 1float, 2float, 3float, 4float, ... ) and a data usage (vertex position, vertex color, indices, uv coord, ...)
+An akBufferInfo contains several "Elements". Each element have a data type (uint32, int32, 4uint8, 1float, 2float, 3float, 4float, ... ), a data usage (vertex position, vertex color, indices, uv coord, ...), a data pointer and a stride value.
 
 Note: To quickly render using VBO it is still better to know the exact memory organisation.
 
