@@ -110,8 +110,7 @@ and substractive blending is supported.
 The goals of the Blend controller would be to facilitate complex animation blending and avoid the hurdle of calculating/settings weight manually and/or blending pose manually.
 
 The idea for the blend controller is just a interface that different blend controller type can fulfill. The basic idea is to have 2 methods in the interface:
-  * FlattenToPlayerSet: It sets the weight of each player in the set so
-that when evaluating the PlayerSet after that, the result will be the one expected. This is quick and low memory but limited in some ways.
+  * FlattenToPlayerSet: It sets the weight of each player in the set so that when evaluating the PlayerSet after that, the result will be the one expected. This is quick and low memory but limited in some ways.
   * EvaluateToPose: It evaluates each animation (at least those which the weights are not null) in a pose, then blends the pose together. It surely will be slower and more memory consuming than the flatten method but more robust when mixing with IK and procedural animation.
 
 For example if the blend controller is a node tree that contains an IK node: We can flatten the tree without taking care of the branch of the IK node except calculating its weight. Than apply all the flat weighted animation to a single pose. Calculate the IK pose than blend the 2 poses together. Nothing really wrong here except if the IK node had inputs that where supposed to be used as start pose to calculate the IK. In this case evaluating the tree instead of flattening it (making pose circulating between the nodes instead of just weights) is the only way to go. The same thing happen when dealing with procedural animation node. 
