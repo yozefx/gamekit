@@ -54,7 +54,8 @@ Simple class used to apply skining/morphing on a mesh. It is not dependent of th
 
 === akBufferInfo an akMesh ===
 
-Those are included in AnimKit source even tough they are only used in the demo. The mesh is decomposed in submeshes each of which have arrays containing the mesh data (indices/vertices). Those arrays are more or less optimized to:
+Those are included in AnimKit source even tough they are only needed by the demo. You can use the animation and the skinning/morphing part of animkit with your own mesh object/structure instead of akMesh.
+The mesh is decomposed in submeshes each of which have arrays containing the mesh data (indices/vertices). Those arrays are more or less optimized to:
   * Interleave vertex data
   * Separate static and dynamic data
   * Take care of alignement
