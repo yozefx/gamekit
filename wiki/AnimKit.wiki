@@ -2,38 +2,39 @@
 
 = AK Internals =
 
+== Classes ==
 
-== akAnimationClip ==
+=== akAnimationClip ===
 
 A basic keyframed animation
 
 
-== akAnimationChannel ==
+=== akAnimationChannel ===
 
 Can be of type BONE/TRANSFORM/MORPH/META. It is mostly organisational (to group curves inside a clip) and give hints on how to apply the result (type and name)
 
 
-== akAnimationCurve ==
+=== akAnimationCurve ===
 
 A keyframed curve with linear or bezier interpolation. It animates only one float value.
 
 
-== akAnimationPlayer ==
+=== akAnimationPlayer ===
 
 Link to a clip and recall the positon inside the clip (local clock) and the playing speed. Each object have a player for each animation clip it can play (so animation clip are shared between objects). It also contain the weight of the animation for animation blending. 
 
 
-== akAnimationPlayerSet ==
+=== akAnimationPlayerSet ===
 
 A set of players to facilitate handling the multitude of players an object can have.
 
 
-== akSkeleton ==
+=== akSkeleton ===
 
 Describe the hierarchy of the joints skeleton as well as its binding pose.
 
 
-== akSkeletonPose ==
+=== akSkeletonPose ===
 
 Quite self explanatory. Can be in different "spaces": Model, Local or Binding.
 
@@ -41,17 +42,17 @@ For blending it better be in a space where the parent position does not affect t
 Some methods are available to convert between spaces.
 
 
-== akPose ==
+=== akPose ===
 
 Has a akSkeletonPose but stores also the result of animated float channels (and other non "Bone" channels). 
 
 
-== akGeometryDeformer ==
+=== akGeometryDeformer ===
 
 Simple class used to apply skining/morphing on a mesh. It is not dependent of the rest of AnimKit source. You can use it with whatever triangle mesh or memory organisation you want. The only thing you need is to describe your data pointer and stride value.
 
 
-== akBufferInfo an akMesh ==
+=== akBufferInfo an akMesh ===
 
 Those are included in AnimKit source even tough they are only used in the demo. The mesh is decomposed in submeshes each of which have arrays containing the mesh data (indices/vertices). Those arrays are more or less optimized to:
   * Interleave vertex data
@@ -64,6 +65,19 @@ An akBufferInfo contains several "Elements". Each element have a data type (uint
 
 Note: To quickly render using VBO it is still better to know the exact memory organisation.
 
+== How to evaluate animation (and animation blending) ==
+
+The most straigth forward procedure to do that is to have all the
+Players in a PlayerSet with the correct weights and directly evaluate
+the result of all the blended animation in a Pose.
+
+For that you have to reset the pose to 0 then evaluate the PlayerSet. AnimKit will evaluate each Player part of the PlayerSet in an additive way:
+pose = pose + weight * animation effect
+
+Alternatively, you can evalute a separated animation clip or a subset
+of the clips in a single pose and then mix/blend several poses
+togheter using the API provided by the PoseBlender. Linear, additive
+and substractive blending is supported.
 
 = AK Status=
 
