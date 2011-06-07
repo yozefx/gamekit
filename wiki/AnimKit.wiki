@@ -110,9 +110,12 @@ Example of different blend controller types:
 
 === BlendTree ===
 
-A node tree where each leaf node is another blend controller (could be a simple animation player, or an ASM or another blend tree)
+A node tree where each leaf node is another blend controller (could be a simple animation player, or an ASM or another blend tree).
+
 Links:
+
 http://www.gamasutra.com/view/feature/3456/animation_blending_achieving_.php
+
 http://www.ogre3d.org/forums/viewtopic.php?t=45260
 
 === Animation State machine ===
