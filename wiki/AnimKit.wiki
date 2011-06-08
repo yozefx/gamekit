@@ -1,6 +1,6 @@
 #AnimKit internals, status and roadmap
 
-= AK Internals =
+= AnimKit Internals =
 
 == Classes ==
 
@@ -82,10 +82,10 @@ of the clips in a single pose and then mix/blend several poses
 togheter using the API provided by the PoseBlender. Linear, additive
 and substractive blending is supported.
 
-= AK Status=
+= AnimKit Status=
 
   * Linear blend skinning
-  * Dual quaternion skinning
+  * Dual quaternion skinning http://isg.cs.tcd.ie/projects/DualQuaternions/
   * Morphing (shape keys)
   * Arbitary float value animation
   * Animation Blending: By hand or flat weighted average (normalized or not)
@@ -93,7 +93,7 @@ and substractive blending is supported.
   * SSE2 optimized
   * Data organisation optimized to avoid cache misses.
 
-= AK Roadmap (in no special order) = 
+= AnimKit Roadmap (in no special order) = 
 
   * Partial body blending
   * Retargeting
