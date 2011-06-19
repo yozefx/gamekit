@@ -1,5 +1,6 @@
 #AnimKit internals, status and roadmap
 
+Link to source: http://code.google.com/p/gamekit/source/browse/branches/AnimKit/
 = AnimKit Internals =
 
 == Classes ==
