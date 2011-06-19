@@ -92,10 +92,10 @@ and substractive blending is supported.
   * LERP, additive and substractive blending.
   * SSE2 optimized
   * Data organisation optimized to avoid cache misses.
+  * Partial body blending
 
 = AnimKit Roadmap (in no special order) = 
 
-  * Partial body blending
   * Retargeting
   * Mirroring
   * Quatization
@@ -154,11 +154,11 @@ A finite state machine where each state is another blend controller (could be a 
   * Shaded/Shadeless/Wireframe
   * Draw normals
   * DualQuaternion/Matrix skinning
+  * UV textures (TexFace and packed raw Targa textures are loaded from the blend file)
 
 
 = Demo Roadmap =
 
-  * UV textures (UV coordinates are loaded from blend file, textures not yet)
   * Another demo with Idle/Walk/Run with akAnimationPlayer synchronization.
   * Have a basic demo for each functionality
 
