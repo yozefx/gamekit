@@ -7,6 +7,11 @@ AnimKit is a free skeletal-based 3d character animation library written in C++ i
 AnimKit is available under the permissive zlib license, just like the rest of gamekit.
 
 = Download source code =
+
+You can check out AnimKit using a Subversion client, using
+svn http://gamekit.googlecode.com/svn/branches/AnimKit
+
+Alternatively, you can also browse the AnimKit source code online:
 http://code.google.com/p/gamekit/source/browse/branches/AnimKit/
 
 = AnimKit classes =
