@@ -1,9 +1,15 @@
 #AnimKit internals, status and roadmap
 
-Link to source: http://code.google.com/p/gamekit/source/browse/branches/AnimKit/
-= AnimKit Internals =
+=Intro=
+AnimKit is a free skeletal-based 3d character animation library written in C++ in a platform/graphic-API independent way.
 
-== Classes ==
+=License=
+AnimKit is available under the permissive zlib license, just like the rest of gamekit.
+
+= Download source code =
+http://code.google.com/p/gamekit/source/browse/branches/AnimKit/
+
+= AnimKit classes =
 
 === akAnimationClip ===
 
