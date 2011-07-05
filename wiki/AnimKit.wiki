@@ -169,13 +169,17 @@ A finite state machine where each state is another blend controller (could be a 
   * UV textures (TexFace and packed raw Targa textures are loaded from the blend file)
 
 
-= Demo Roadmap =
-
-  * Another demo with Idle/Walk/Run with akAnimationPlayer synchronization.
-  * Have a basic demo for each functionality
-
-
 = Limitations =
 
  * One vertex can only be deformed by 4 bones, if deformed by more the less deforming bone is excluded and weights are renormalized. It is generally admitted that the difference is not visible to human eye.
  * Maximum 256 bones in a skeleton.
+
+
+= Future work =
+
+  * Another demo with Idle/Walk/Run with akAnimationPlayer synchronization.
+  * Integrate with Ogre and Irrlicht graphics renderers (trunk)
+  * Have a basic demo for each functionality
+  * Show how to load animation data from a FBX or COLLADA file
+  * Integrate AnimKit with Bullet
+  * Add an inverse kinematics system
