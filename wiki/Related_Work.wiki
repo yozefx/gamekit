@@ -53,3 +53,4 @@ http://www.devmaster.net/engines/
   * .blend [http://www.atmind.nl/blender/mystery_ot_blend.html Blender file format]
   * .bullet [http://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization Bullet physics file format]
   * .gto [http://open-gto.googlecode.com GTO/OpenGTO file format]
+  * [http://sourceforge.net/projects/assimp ASSIMP]  and [http://nolimitsdesigns.com/game-design/open-asset-import-library-animation-loader ASSIMP animation loader]
