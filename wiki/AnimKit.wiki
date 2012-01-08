@@ -183,3 +183,4 @@ A finite state machine where each state is another blend controller (could be a 
   * Show how to load animation data from a FBX or COLLADA file
   * Integrate AnimKit with Bullet
   * Add an inverse kinematics system
+  * Add OpenGL ES2 demo working on Android and iPhone/iPad, see  http://opengles20study.blogspot.com/2011/12/using-animkit-for-pose-and-skeleton.html
