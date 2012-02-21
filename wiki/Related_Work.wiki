@@ -20,6 +20,7 @@ http://www.devmaster.net/engines/
   * libgdx, Android/PC framework, http://code.google.com/p/libgdx (Apache 2.0 license)
   * Galaxy Engine, Max, iPhone, iPad, Cocoa, http://code.google.com/p/galaxyengine (BSD license)
   * hmrEngine, http://hmrengine.codeplex.com (BSD license)
+  * Proton SDK, http://protonsdk.com (BSD locense witt advertising/attribution clause)
 
 
 = Game Engines using viral/copyleft licenses (L)GPL =
