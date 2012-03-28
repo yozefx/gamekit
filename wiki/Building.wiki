@@ -28,19 +28,28 @@ Then open the project solution using Visual Studio. CMake can generate project/s
 
 == Mac OSX ==
 
-  * cmake . -G Xcode
+  * cmake-gui
 
-Then open the generated Xcode project using Xcode
-
-Alternatively you can use cmake-gui, similar to the Windows version.
+Then select the source directory, binary directory and hit the 'Configure' button. Choose your build system, such as Xcode or Unix Makefile. A red block of options will appear. You can customize the build
 
   * Turn on OGREKIT_BUILD_GLRS
   * Turn off OGREKIT_BUILD_GLESRS
 
+Then hit 'Configure' again and then 'Generate'. Navigate with Xcode to your build folder and load the xcode-project. (Or if using Unix Makefile just change to the build-directory and type 'make')
+
+Alternatively
+
+  * cmake . -G Xcode
+  * cmake . -G Xcode (you have to call the same command a 2nd time)
+
+Then open the generated Xcode project using Xcode
+
 
 == iOS(iPhone/iPad/iPod Touch) ==
 
-  * cmake . -G Xcode -DOGREKIT_BUILD_IPHONE=1 -DOGREKIT_BUILD_GLESRS=1 -DOGREKIT_BUILD_GLRS=0
+  * cmake . -G Xcode  
+  * cmake . -G Xcode -DOGREKIT_BUILD_IPHONE=1 
+    (yes, it is right to call cmake a 2nd time)
 
 NOTE: You should use the CMake 2.8.3 or higher version for the iOS build with CMake command line tool. 
 
@@ -55,6 +64,9 @@ Alternatively you can use cmake-gui, similar to the Windows version.
 NOTE: You should use the CMake 2.8.2 or higher version for the iOS build. 
 
 Good iOS build tutorial by kruzer - [http://blenderartists.org/forum/showpost.php?p=1701697&postcount=371 blenderartists.org]
+
+Notice: At the moment ( 28/03/2012 ) you have to hard-code the resolution.
+( Gamekit/Samples/IPhoneDemo/Main.mm
 
 == Unix/Linux ==
 
