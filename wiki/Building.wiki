@@ -111,6 +111,8 @@ You can also generate an IDE project.
 
 For more info: [http://gamekit.org/forum/viewtopic.php?f=9&t=29 Have a look here in the Forum]
 
+If something went wrong, please ask with some additional information in the forum including a logcat-output.
+
 == See also ==
 
 There is also a readme.txt in the root of GameKit with some help.
