@@ -31,7 +31,7 @@ Here is how you can re-assign the P key:
 
   * See this wiki page for [http://code.google.com/p/gamekit/wiki/LogicBrickDesign logic brick compatibility]
   * Make sure that your textures are compatibile, see this [http://code.google.com/p/gamekit/wiki/Blender_Textures Texture wiki page]
-  * When using AppOgreKit compiled with RTSS, it may be necessary to change the shadow mode from _additive_ to _modulative_
+  * When using OgreKit compiled with RTSS, it may be necessary to change the shadow mode from _additive_ to _modulative_. This is necessary for such pre-lit environments as seen in the momo_ogre.blend example file.
 
 = Further reading =
 
