@@ -159,7 +159,7 @@ All logic bricks not marked by N/A will be extracted from the current blend file
 || Sound || gkSoundActuator ||  ||
 || Property || gkPropertyActuator || Does not support expressions. ||
 || Edit Object || gkEditObjectActuator ||  ||
-|| Scene || gkSceneActuator || No background/Overlay/Remove nor Supend/Resume ||
+|| Scene || gkSceneActuator || No Supend/Resume ||
 || Random || gkRandomActuator ||  ||
 || Message || gkMessageActuator ||  ||
 || Game || gkGameActuator || No Start New nor Save/Load. ||
