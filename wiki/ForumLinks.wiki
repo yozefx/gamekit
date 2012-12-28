@@ -1,5 +1,4 @@
-Direct-Links to useful forum-topics that might be useful
-
+Direct-Links to useful forum-topics
 = Forum-Links =
 
 [http://gamekit.org/forum/viewtopic.php?f=2&t=976 Set up cross-platform C++ OgreKit project on Linux]
