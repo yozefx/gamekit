@@ -12,3 +12,5 @@ Direct-Links to useful forum-topics
 [http://gamekit.org/forum/viewtopic.php?f=9&t=539 Compiling blends in the executable]
 
 [http://gamekit.org/forum/viewtopic.php?f=9&t=538#p1967 attaching multiple physics objects]
+
+[http://gamekit.org/forum/viewtopic.php?f=2&t=989 Mesh-Creation via lua]
