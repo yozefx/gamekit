@@ -81,17 +81,17 @@ You can also generate an IDE project.
 
 == Android ==
 
-  * Set environment-variable NDK to the root of your NDK-Directory
+  * Set environment-variable ANDROID_NDK to the root of your NDK-Directory
   
   * Windows (use the visual studio command line) *
 
-             # set NDK=D:\gamekit\android-ndk-r5c
+             # set ANDROID_NDK=D:\gamekit\android-ndk-r8b
              # configure-android.bat c:\where_to_where_to_build_gamekit
              # cd c:\where_to_where_to_build_gamekit
              # nmake
 
   * Linux/Mac: *
-             # export NDK=/home/dertom/libs/android-ndk-r7b
+             # export ANDROID_NDK=/home/dertom/libs/android-ndk-r8b
              # ./configure-android /where_to_where_to_build_gamekit
              # cd /where_to_where_to_build_gamekit
              # make -j4
