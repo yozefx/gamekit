@@ -20,7 +20,8 @@ http://www.devmaster.net/engines/
   * libgdx, Android/PC framework, http://code.google.com/p/libgdx (Apache 2.0 license)
   * Galaxy Engine, Max, iPhone, iPad, Cocoa, http://code.google.com/p/galaxyengine (BSD license)
   * Proton SDK, http://protonsdk.com (BSD license witt advertising/attribution clause)
-  * Urho3d https://code.google.com/p/urho3d (MIT license)
+  * Torque 3D, https://github.com/GarageGames/Torque3D (MIT license)
+  * Urho3d, https://code.google.com/p/urho3d (MIT license)
 
 = Game Engines using viral/copyleft licenses (L)GPL =
   * Crystal Space, http://www.crystalspace3d.org, LGPL
