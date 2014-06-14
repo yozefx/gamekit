@@ -83,49 +83,43 @@ You can also generate an IDE project.
 
   * Set environment-variable ANDROID_NDK to the root of your NDK-Directory
   
-  * Windows (use the visual studio command line) *
+  * Windows (Use the visual studio command line) 
+    # set ANDROID_NDK=D:\gamekit\android-ndk-r8c
+    # configure-android.bat c:\where_to_where_to_build_gamekit
+    # cd c:\where_to_where_to_build_gamekit
+    # nmake 
+      (Use jom instead of nmake for multicore build - http://http://qt-project.org/wiki/jom)
 
-             # set ANDROID_NDK=D:\gamekit\android-ndk-r8b
-             # configure-android.bat c:\where_to_where_to_build_gamekit
-             # cd c:\where_to_where_to_build_gamekit
-             # nmake
+  * Linux/Mac: 
+    # export ANDROID_NDK=/home/dertom/libs/android-ndk-r8c
+    # ./configure-android /where_to_where_to_build_gamekit
+    # cd /where_to_where_to_build_gamekit
+    # make -j4
 
-  * Linux/Mac: *
-             # export ANDROID_NDK=/home/dertom/libs/android-ndk-r8b
-             # ./configure-android /where_to_where_to_build_gamekit
-             # cd /where_to_where_to_build_gamekit
-             # make -j4
+   * Get Requirements: 
+    # Install JDK, not JRE.
+      http://www.oracle.com/technetwork/java/javase
+    # Install Android NDK (Recommand version is *r8c*) 
+      https://developer.android.com/tools/sdk/ndk/index.html
+    # Install Eclipse ide & Android sdk plugins bundle(ADT).
+      http://developer.android.com/sdk/index.html
+    # Update Android sdk in Eclipse. (Menu Windows/Android SDK Manager)
+      Android SDK Tools 
+      Android SDK Platform-tools
+      Android SDK Build-tools
+      Android 2.3.3 (API 10) SDK Platform
 
-   * Get Requirements: *
+  * Run Eclipse & Create a Android project & Build.
+    # Select 'Menu File/Import/General/Exisiting Project'
+      `Next> Root-Location <build-dir>/AndroidDemo`           
+    # Optional: Replace blend-file ( assets/momo_ogre_i.blend )           
+    # Right-Click on your Android-Project > Run-as > Android Application            
+    # Optional: Open Logcat-View to see log-information from the phone 
+      Window>Show View>Other...>Android>LogCat 
 
-1. install jdk, not JRE.
-   http://www.oracle.com/technetwork/java/javase
+  For more info: [http://gamekit.org/forum/viewtopic.php?f=9&t=29 Have a look here in the Forum]
 
-2. install android sdk.
-   http://developer.android.com/sdk/index.html
-
-3. install eclipse ide & android sdk plugins(ADT).
-   http://www.eclipse.org
-   http://developer.android.com/sdk/eclipse-adt.html
-
-
-* Run Eclipse & Create a Android project & Build.
-
-1. Select 'Menu File/Import/General/Exisiting Project'
-`Next> Root-Location <ogrekit_src>/Samples/AndroidDemo/Demo`
-
-2. optional replace blend-file ( assets/gk_android.blend )
-
-3. Right-Click on your Android-Project > Run-as > Android Application 
-
-4. Optional: Open Logcat-View to see log-information from the phone 
-             Window>Show View>Other...>Android>LogCat 
-
-For more info: [http://gamekit.org/forum/viewtopic.php?f=9&t=29 Have a look here in the Forum]
-
-If something went wrong, please ask with some additional information in the [http://www.gamekit.org forum] including a logcat-output.
-
-
+  If something went wrong, please ask with some additional information in the [http://www.gamekit.org forum] including a logcat-output.
 
 == See also ==
 
